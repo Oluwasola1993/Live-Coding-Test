@@ -1,5 +1,7 @@
-navbar {
+.navbar {
     position: fixed;
+    background-color: white;
+    z-index: 100;
 }
 
 #button:hover {
@@ -11,12 +13,38 @@ navbar {
 }
 
 .main {
-    background-image: linear-gradient(left #edf0ff, to, right white,);
+    background-color: #eef0ff;
+    height: 80vh;
+}
+
+.Edzz {
+    border: 2px solid #d0d8fc;
+    color: #251e6b;
+    width: 42%;
+    background-color: #d0d8fc;
 }
 
 .img {
-    width: 100%;
-    margin-right: 50px;
+    /* width: 100%;
+    margin-left: 200px; */
+    animation: img 2s 2s 0.3s infinite alternate-reverse ease;
+}
+
+@keyframes img {
+    from {
+        margin-top: 30px;
+    }
+
+    to {
+        margin-top: 0px;
+    }
+
+}
+
+
+.Txt {
+    background-color: #edefff;
+    overflow: hidden;
 }
 
 .lineArrow:hover {
@@ -49,4 +77,85 @@ navbar {
     border-radius: 12px;
     height: 23vh;
     color: white;
+}
+
+#imgEdit {
+    border-radius: 7px;
+    width: 100%;
+    transition: all .6s;
+}
+
+#imgEdit:hover {
+    margin-top: -20px;
+}
+
+.Box {
+    height: 54vh;
+    border-radius: 7px;
+    box-shadow: 2px 2px 25px 5px rgb(245, 241, 241);
+    position: relative;
+    align-items: center;
+    color: #1c1564;
+}
+
+.Box1 {
+    height: 65vh;
+    border-radius: 7px;
+    box-shadow: 2px 2px 25px 5px rgb(245, 241, 241);
+    align-items: center;
+    color: #1c1564; 
+}
+
+.rome {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+#arrow {
+    font-size: 20px;
+    transition: all .5s;
+    text-decoration: none;
+    color: #9cb2d3;
+}
+
+#arrow:hover {
+    font-size: 25px;
+}
+
+.boxNw {
+    height: 54vh;
+    border-radius: 7px;
+    box-shadow: 2px 2px 25px 5px rgb(245, 241, 241);  
+    align-items: center;
+    color: #1c1564;
+}
+
+.link {
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 999px) {
+    .img {
+        width: 100%;
+        margin-left: 10px;
+        padding-top: 40px;
+    }
+
+    .Butn {
+        display: none;
+    }
+
+    .edoZz {
+        display: none;
+    }
+
+    .Edzz {
+        width: 70%;
+        margin: auto;
+    }
+
+    #button {
+        margin-top: 10px;
+    }
 }
