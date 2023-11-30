@@ -1,0 +1,52 @@
+navbar {
+    position: fixed;
+}
+
+#button:hover {
+    background-color: yellow;
+}
+
+#button {
+    background-color: #1c1564;
+}
+
+.main {
+    background-image: linear-gradient(left #edf0ff, to, right white,);
+}
+
+.img {
+    width: 100%;
+    margin-right: 50px;
+}
+
+.lineArrow:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.text1 {
+    background-color: #1c1564;
+    border: 0px;
+    border-radius: 12px;
+    height: 23vh;
+}
+
+.txt {
+    border-bottom: 1px solid #fda186;
+}
+
+.txtNew1:hover {
+    background-color: #1c1564;
+    border: 0px;
+    border-radius: 12px;
+    height: 23vh;
+    color: white;
+}
+
+.txtNew2:hover {
+    background-color: #1c1564;
+    border: 0px;
+    border-radius: 12px;
+    height: 23vh;
+    color: white;
+}
