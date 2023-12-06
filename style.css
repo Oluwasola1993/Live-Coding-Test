@@ -134,6 +134,25 @@
     text-decoration: none;
 }
 
+.vidImg {
+    border-radius: 16px;
+    height: 62vh;
+    width: inherit;
+}
+
+.Switch {
+    margin: auto;
+    height: 65vh;
+    width: 35%;
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 2px 2px 25px 5px rgb(228, 225, 225);
+}
+
+#imgLin {
+    border-bottom: 1px solid #d4d3e2;
+}
+
 
 @media screen and (max-width: 999px) {
     .img {
@@ -157,5 +176,23 @@
 
     #button {
         margin-top: 10px;
+    }
+
+    .Switch {
+        height: 54vh;
+        width: 100%;
+        border-radius: 7px;
+        background-color: white;
+        box-shadow: 2px 2px 25px 5px rgb(228, 225, 225);
+    }
+
+    .vidImg {
+        border-radius: 16px;
+        height: 62vh;
+        width: 100%;
+    }
+
+    .switc {
+        width: 50%;
     }
 }
