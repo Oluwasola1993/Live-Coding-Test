@@ -1,5 +1,6 @@
 .navbar {
     position: fixed;
+    margin-top: -24px;
     background-color: white;
     z-index: 100;
 }
